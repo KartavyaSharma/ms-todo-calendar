@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  // all rules avaiable through https://eslint.org/docs/rules/
+  "rules": {
+    "no-console": 0 // possible options: 0 (off), 1 (warning), 2 (error)
+  }
+}
